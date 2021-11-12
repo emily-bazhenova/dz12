@@ -99,7 +99,7 @@ h3 {
   transition: scale, 250ms;
   transition: rotate, 500ms;
 }
-.icon:hover {
+.service-items:hover .icon {
   transform: scale(1.2) rotate(360deg);
 }
 
@@ -220,4 +220,5 @@ h3 {
   padding: 23px 45px;
   border: none;
   border-radius: 3px;
+  cursor: pointer;
 }
